@@ -35,7 +35,7 @@ public class CreditCardController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        
         newBody = body.stream()
                 .map(card -> creditCardService.validate(card, blackList))
                 .collect(Collectors.toList());

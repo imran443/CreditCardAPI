@@ -1,5 +1,6 @@
 package com.imranqureshi.pojos;
 
+// The class for accepting capturing the incoming request.
 public class CreditCard {
 
     private String creditCardNum;

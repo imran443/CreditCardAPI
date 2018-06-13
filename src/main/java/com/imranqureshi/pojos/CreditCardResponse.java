@@ -1,6 +1,6 @@
 package com.imranqureshi.pojos;
 
-// This class will
+// This class will create the response for each credit card received.
 public class CreditCardResponse {
     private String creditCardNum;
     private String expirationDate;

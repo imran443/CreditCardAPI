@@ -48,7 +48,7 @@ public class CreditCardService {
             }
             return new CreditCardResponse(cardNum, expDate, true, isOnBlackList);
         }
-
+        // If it's not valid credit card then return this object.
         return new CreditCardResponse(cardNum, expDate,false, isOnBlackList);
     }
 
