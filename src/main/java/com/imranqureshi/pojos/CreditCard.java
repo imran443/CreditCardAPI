@@ -1,4 +1,4 @@
-package com.imranqureshi;
+package com.imranqureshi.pojos;
 
 public class CreditCard {
 

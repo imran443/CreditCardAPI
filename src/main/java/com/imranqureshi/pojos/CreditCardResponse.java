@@ -1,4 +1,4 @@
-package com.imranqureshi;
+package com.imranqureshi.pojos;
 
 // This class will
 public class CreditCardResponse {
