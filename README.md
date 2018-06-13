@@ -8,7 +8,7 @@ The following is a simple RESTful API for Credit Card validation.
 ```javascript
 [
 	{
-		"creditCardNum": "4512 2386 2252 6415",
+		"creditCardNum": "4657 5122 2152 6415",
 		"expiration": "01/19"
 		
 	},
@@ -16,5 +16,22 @@ The following is a simple RESTful API for Credit Card validation.
 		"creditCardNum": "4788 3845 3855 2446",
 		"expiration": "01/22"
 	}
+]
+```
+- The response will be in the following format:
+```javascript
+[
+    {
+        "creditCardNum": "4657512221526415",
+        "expirationDate": "01/19",
+        "validCreditCard": false,
+        "blackListed": true
+    },
+    {
+        "creditCardNum": "4788384538552446",
+        "expirationDate": "01/22",
+        "validCreditCard": false,
+        "blackListed": true
+    }
 ]
 ```
